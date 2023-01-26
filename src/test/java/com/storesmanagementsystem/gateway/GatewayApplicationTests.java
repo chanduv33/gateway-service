@@ -1,4 +1,4 @@
-package com.capgemini.gateway;
+package com.storesmanagementsystem.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

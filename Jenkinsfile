@@ -26,5 +26,12 @@ pipeline {
             }
             }
         }
+        stage ('Delpoy') {
+            steps {
+              script {
+		                sh "../jenkins/deploy.sh chanduv33/gateway-service:\"${env.BUILD_NUMBER}\""
+	            }   
+            }           
+        }
     }
 }
